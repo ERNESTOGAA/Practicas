@@ -14,12 +14,11 @@ namespace hola
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine("Dame el primer numero");
+			int numero1=int.Parse (Console.ReadLine ());
+			Console.WriteLine("Dame el segundo numero");
+			int numero2=int.Parse (Console.ReadLine());
 			
-			// TODO: Implement Functionality Here
-			
-			Console.Write("Press any key to continue . . . ");
-			Console.ReadKey(true);
 		}
 	}
 }
